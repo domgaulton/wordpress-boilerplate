@@ -1,5 +1,8 @@
 # Wordpress Boilerplate
 
+## About
+* Wordpress v5.0.2
+
 ## Plugins
 * Elementor - https://wordpress.org/plugins/elementor/
 * Elementor Elements - https://wordpress.org/plugins/envato-elements/
