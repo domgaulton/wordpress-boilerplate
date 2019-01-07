@@ -12,11 +12,13 @@
 * Akismet - https://wordpress.org/plugins/akismet/
 * Yoast SEO - https://wordpress.org/plugins/wordpress-seo/
 * Media Cleaner - https://wordpress.org/plugins/media-cleaner/
+* Migrate WP - https://wordpress.org/plugins/all-in-one-wp-migration/
 
 ## Themes
 * Sydney - https://wordpress.org/themes/sydney/
 * Astra - https://wordpress.org/themes/astra/
 * Twenty Nineteen - https://wordpress.org/themes/twentynineteen/
+* Generate Press - https://wordpress.org/themes/generatepress/
 
 ## Development Tips
 * View on iPad - http://www.designshifts.com/view-local-wordpress-website-on-your-iphone-or-ipad-with-mamp/
@@ -27,10 +29,12 @@
 * Copy database - https://support.hostgator.com/articles/how-to-rename-a-database-in-phpmyadmin
 * Upload database and change wp_options line one url to new URL
 
-### FTP
+### Files
 * Copy entire WP folder to new server
 * Update wp-config.php settings to new server details
 * Update .htaccess file line 4 and line 8 - https://wordpress.stackexchange.com/questions/135415/new-install-of-wordpress-my-url-goes-to-index-of
+* Update wp-config.php by adding `define( 'WP_HOME', 'https://website.com' );` and `define( 'WP_SITEURL', 'https://website' );`
+* Update wp-content > themes > chosen theme > functions.php by adding `update_option( 'siteurl', 'https://website.com' );` and `update_option( 'home', 'https://website' );`
 
 ### Wordpress settings
 * Change permalinks (retoggle) from existing, to new, to existing
