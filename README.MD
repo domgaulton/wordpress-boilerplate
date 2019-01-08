@@ -19,6 +19,22 @@
 * Astra - https://wordpress.org/themes/astra/
 * Twenty Nineteen - https://wordpress.org/themes/twentynineteen/
 * Generate Press - https://wordpress.org/themes/generatepress/
+* Ocean WP - https://wordpress.org/themes/oceanwp/
+* Phlox - https://wordpress.org/themes/phlox/
+* Tesseract - https://tesseracttheme.com/
+* Hestia - https://wordpress.org/themes/search/hestia/
+* Page Builder Framework - https://wordpress.org/themes/page-builder-framework/
+* Rife Free - https://wordpress.org/themes/rife-free/
+* Twenty Sixteen - https://wordpress.org/themes/twentysixteen/
+* Bstone - https://wordpress.org/themes/bstone/
+* Neve - https://wordpress.org/themes/neve/
+
+## Elementor Templates
+* Homepage Business - https://library.elementor.com/homepage-business/
+* Homepage App - https://library.elementor.com/homepage-app/
+* Insurance - https://elementor-den.com/demo/free/insurance-elementor-template/
+
+## Elementor Templates
 
 ## Development Tips
 * View on iPad - http://www.designshifts.com/view-local-wordpress-website-on-your-iphone-or-ipad-with-mamp/

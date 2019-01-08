@@ -9,45 +9,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-if ( ! function_exists( 'generate_construct_footer' ) ) {
-	add_action( 'generate_footer', 'generate_construct_footer' );
-	/**
-	 * Build our footer.
-	 *
-	 * @since 1.3.42
-	 */
-	function generate_construct_footer() {
-		?>
-		<footer class="site-info" <?php generate_do_microdata( 'footer' ); ?>>
-			<div class="inside-site-info <?php if ( 'full-width' !== generate_get_option( 'footer_inner_width' ) ) : ?>grid-container grid-parent<?php endif; ?>">
-				<?php
-				/**
-				 * generate_before_copyright hook.
-				 *
-				 * @since 0.1
-				 *
-				 * @hooked generate_footer_bar - 15
-				 */
-				do_action( 'generate_before_copyright' );
-				?>
-				<div class="copyright-bar">
-					<?php
-					/**
-					 * generate_credits hook.
-					 *
-					 * @since 0.1
-					 *
-					 * @hooked generate_add_footer_info - 10
-					 */
-					do_action( 'generate_credits' );
-					?>
-				</div>
-			</div>
-		</footer><!-- .site-info -->
-		<?php
-	}
-}
-
 if ( ! function_exists( 'generate_footer_bar' ) ) {
 	add_action( 'generate_before_copyright', 'generate_footer_bar', 15 );
 	/**

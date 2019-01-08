@@ -16,7 +16,8 @@ class Hestia_Footer extends Hestia_Abstract_Main {
 	public function init() {
 		add_action( 'hestia_do_footer', array( $this, 'the_footer_content' ) );
 		add_filter( 'wp_nav_menu_args', array( $this, 'modify_footer_menu_classes' ) );
-		add_action( 'hestia_do_bottom_footer_content', array( $this, 'bottom_footer_content' ) );
+		// Removes Hestia Footer identity - by DG
+		// add_action( 'hestia_do_bottom_footer_content', array( $this, 'bottom_footer_content' ) );
 	}
 
 	/**

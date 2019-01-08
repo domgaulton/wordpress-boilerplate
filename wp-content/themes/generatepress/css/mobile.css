@@ -295,6 +295,7 @@ nav.toggled ul ul.sub-menu {
 	.site-info {
 		padding-left: 10px;
 		padding-right: 10px;
+		display: none;
 	}
 
 	.site-info {
