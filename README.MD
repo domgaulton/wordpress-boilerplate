@@ -3,7 +3,10 @@
 ## About
 * Wordpress v5.0.2
 
-## Themes
+## Themes / Plugins
+
+### Themes
+
 * Astra - https://wordpress.org/themes/astra/
 * Bstone - https://wordpress.org/themes/bstone/
 * Generate Press - https://wordpress.org/themes/generatepress/
@@ -14,7 +17,7 @@
 * Phlox - https://wordpress.org/themes/phlox/
 * Sydney - https://wordpress.org/themes/sydney/
 
-## Plugins
+### Plugins
 * Akismet - https://wordpress.org/plugins/akismet/
 * Astra Sites - https://wordpress.org/plugins/astra-sites/
 * Duplicate Page - https://wordpress.org/plugins/duplicate-page/
@@ -25,10 +28,19 @@
 * WP-Smush - https://wordpress.org/plugins/wp-smushit/
 * Yoast SEO - https://wordpress.org/plugins/wordpress-seo/
 
+### Templates
+
 ## Elementor Templates
 * Homepage Business - https://library.elementor.com/homepage-business/
 * Homepage App - https://library.elementor.com/homepage-app/
 * Insurance - https://elementor-den.com/demo/free/insurance-elementor-template/
+
+## Katka (See Google Drive)
+* Blocks - https://elementortemplatepack.com/elementorblocks/
+* Pages - https://elementortemplatepack.com/katka-elementor-page-templates/
+
+## Elementor Den
+* Elementor Den - https://elementor-den.com/product-category/free-elementor-templates/?ssl=1
 
 ## Development Tips
 * View on iPad - http://www.designshifts.com/view-local-wordpress-website-on-your-iphone-or-ipad-with-mamp/
