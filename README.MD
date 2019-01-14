@@ -20,27 +20,34 @@
 ### Plugins
 * Akismet - https://wordpress.org/plugins/akismet/
 * Astra Sites - https://wordpress.org/plugins/astra-sites/
+* Contact Form 7 - https://wordpress.org/plugins/contact-form-7/
 * Duplicate Page - https://wordpress.org/plugins/duplicate-page/
 * Elementor - https://wordpress.org/plugins/elementor/
 * Elementor Elements - https://wordpress.org/plugins/envato-elements/
 * Media Cleaner - https://wordpress.org/plugins/media-cleaner/
-* Migrate WP - https://wordpress.org/plugins/all-in-one-wp-migration/
 * WP-Smush - https://wordpress.org/plugins/wp-smushit/
 * Yoast SEO - https://wordpress.org/plugins/wordpress-seo/
 
-### Templates
+## Templates
+* See `wp-content/templates` for files
 
-## Elementor Templates
+### Elementor Templates
 * Homepage Business - https://library.elementor.com/homepage-business/
 * Homepage App - https://library.elementor.com/homepage-app/
 * Insurance - https://elementor-den.com/demo/free/insurance-elementor-template/
 
-## Katka (See Google Drive)
+### Katka
 * Blocks - https://elementortemplatepack.com/elementorblocks/
 * Pages - https://elementortemplatepack.com/katka-elementor-page-templates/
 
-## Elementor Den
+### Elementor Den
 * Elementor Den - https://elementor-den.com/product-category/free-elementor-templates/?ssl=1
+
+### Astra Sites
+* Free Elementor Pages - https://websitedemos.net/?page-builder=elementor&category=free
+
+### Phlox
+* Live demos - https://phlox.pro/#live-demos
 
 ## Development Tips
 * View on iPad - http://www.designshifts.com/view-local-wordpress-website-on-your-iphone-or-ipad-with-mamp/
