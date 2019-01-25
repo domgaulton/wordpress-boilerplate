@@ -52,6 +52,14 @@
 ## Development Tips
 * View on iPad - http://www.designshifts.com/view-local-wordpress-website-on-your-iphone-or-ipad-with-mamp/
 
+## Project Kick Off
+* Create subdomain in cpanel using `/subdomain` as document root
+* Set up database using uat user with all privileges
+* Download latest wordpress
+* Using FTP add latest wordpress to subdomain
+* Install using client name as username and generate random password
+* Install themes / plugins from above
+
 ## Moving to live server
 
 ### Backend
