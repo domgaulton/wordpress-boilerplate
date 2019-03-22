@@ -30,6 +30,7 @@
 
 ## Templates
 * See `wp-content/templates` for files
+* Default to Phlox for builds. Header, Footer, Social, Performance
 
 ### Elementor Templates
 * Homepage Business - https://library.elementor.com/homepage-business/
@@ -48,6 +49,7 @@
 
 ### Phlox
 * Live demos - https://phlox.pro/#live-demos
+* Lots of configuration
 
 ## Development Tips
 * View on iPad - http://www.designshifts.com/view-local-wordpress-website-on-your-iphone-or-ipad-with-mamp/
