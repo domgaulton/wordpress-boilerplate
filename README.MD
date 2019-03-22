@@ -70,9 +70,17 @@
 * Copy entire WP folder to new server
 * Update wp-config.php settings to new server details
 * Update .htaccess file line 4 and line 8 - https://wordpress.stackexchange.com/questions/135415/new-install-of-wordpress-my-url-goes-to-index-of
-* Update wp-config.php by adding `define( 'WP_HOME', 'https://website.com' );` and `define( 'WP_SITEURL', 'https://website.com' );`
-* (Optional - to check but not always required) Update wp-content > themes > chosen theme > functions.php by adding `update_option( 'siteurl', 'https://website.com' );` and `update_option( 'home', 'https://website.com' );`
-* Go to new url with /wp-admin/upgrade.php
+* Update wp-config.php URL settings - https://codex.wordpress.org/Changing_The_Site_URL 
+```php
+define( 'WP_HOME', 'https://website.com' );
+define( 'WP_SITEURL', 'https://website.com' );
+```
+* (Optional - If you have access to the site via FTP, then this method will help you quickly get a site back up and running, if you changed those values incorrectly.) Update wp-content > themes > chosen theme > functions.php - Add these two lines to the file, immediately after the initial "<?php" line 
+```php
+update_option( 'siteurl', 'https://website.com' );
+update_option( 'home', 'https://website.com' );
+```
+* Go to new url with /wp-admin/upgrade.php in incognito browser
 
 ### Wordpress settings
 * Change permalinks (retoggle) from existing, to new, to existing
