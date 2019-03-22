@@ -52,7 +52,7 @@
 ## Development Tips
 * View on iPad - http://www.designshifts.com/view-local-wordpress-website-on-your-iphone-or-ipad-with-mamp/
 
-## Project Kick Off
+## UAT Project Kick Off
 * Create subdomain in cpanel using `/subdomain` as document root
 * Set up database using uat user with all privileges
 * Download latest wordpress
@@ -71,8 +71,10 @@
 * Update wp-config.php settings to new server details
 * Update .htaccess file line 4 and line 8 - https://wordpress.stackexchange.com/questions/135415/new-install-of-wordpress-my-url-goes-to-index-of
 * Update wp-config.php by adding `define( 'WP_HOME', 'https://website.com' );` and `define( 'WP_SITEURL', 'https://website.com' );`
-* Update wp-content > themes > chosen theme > functions.php by adding `update_option( 'siteurl', 'https://website.com' );` and `update_option( 'home', 'https://website.com' );`
+* (Optional - to check but not always required) Update wp-content > themes > chosen theme > functions.php by adding `update_option( 'siteurl', 'https://website.com' );` and `update_option( 'home', 'https://website.com' );`
+* Go to new url with /wp-admin/upgrade.php
 
 ### Wordpress settings
 * Change permalinks (retoggle) from existing, to new, to existing
-* Change elementor settings to new URL
+* Change elementor settings to new URL - Elementor > Tools > Replace URL
+* Turn off ‘discourage search engines to index this site’ Settings > Reading
