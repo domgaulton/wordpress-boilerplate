@@ -14,7 +14,7 @@
 * Neve - https://wordpress.org/themes/neve/
 * Ocean WP - https://wordpress.org/themes/oceanwp/
 * Page Builder Framework - https://wordpress.org/themes/page-builder-framework/
-* Phlox - https://wordpress.org/themes/phlox/
+* Phlox 5/5 - https://wordpress.org/themes/phlox/
 * Sydney - https://wordpress.org/themes/sydney/
 
 ### Plugins
